@@ -1,12 +1,16 @@
 ![Logo](https://www.bookmyessay.com/wp-content/themes/bme-gk/assets/img/academic-assignment-banner.png)
 
-# Data-Structure-Lab-Assignments
+# SEM-III LAB ASSIGNMENTS
 
-##### This is a Repository of the FDS Lab Assignments for KK WAGH students. You can refer these programs for understanding and application for the given problem. These Programs will also help you for your Exams.
+##### This is a Repository of the Lab Assignments is for KK WAGH students. You can refer these programs for understanding and application for the given problem. These Programs will also help you for your Exams.
 
 ## Content
 
-##### **FDS Lab Assignments 1-2**
+##### **DSL Lab Assignments 1-13**
+
+##### **PYHON Lab Assignments 1-9**
+
+##### **PPCNL Lab Assignments 1-12**
 
 ## About Me
 
@@ -18,7 +22,7 @@
 2. Clone the repository to your local system.
 
 ```bash
-  git clone https://github.com/<YOUR_GITHUB_USERNAME>/Data_Structure-CPP
+  git clone https://github.com/<YOUR_GITHUB_USERNAME>/SEM-III-Lab_Assignments
 ```
 
 3. Create a new branch.
