@@ -67,19 +67,20 @@ public:
         a++;
         bi++;
       }
-      else if (b.poly[bi].expo >= poly[a].expo)
-      {
-        c.poly[j].expo = b.poly[bi].expo;
-        c.poly[j].coef = b.poly[bi].coef;
-        j++;
-        bi++;
-      }
-      else
+      else if (b.poly[bi].expo > poly[a].expo)
       {
         c.poly[j].expo = poly[a].expo;
         c.poly[j].coef = poly[a].coef;
         j++;
         a++;
+      }
+      else
+      {
+        
+        c.poly[j].expo = b.poly[bi].expo;
+        c.poly[j].coef = b.poly[bi].coef;
+        j++;
+        bi++;
       }
     }
     while (total > a)

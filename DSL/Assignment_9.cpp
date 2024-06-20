@@ -11,7 +11,7 @@
 using namespace std;
 
 // Function to print the original string followed by the reversed string
-void printOriginalAndReversedString(const string& input) {
+void printOriginalAndReversedString(string input) {
     stack<char> charStack;
 
     // Push alphanumeric characters onto the stack
@@ -34,7 +34,7 @@ void printOriginalAndReversedString(const string& input) {
 }
 
 // Function to check if a string is a palindrome
-bool isPalindrome(const string& input) {
+bool isPalindrome(string input) {
     stack<char> charStack;
     string in;
     // Push alphanumeric characters onto the stack
